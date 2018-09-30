@@ -1,7 +1,7 @@
 # Личный проект «Седона» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Алексей Гурин](https://up.htmlacademy.ru/adaptive/15/user/808797).
-* Наставник: `Неизвестно`.
+* Наставник: [Анастасия Шевченко] (https://htmlacademy.ru/profile/id125164).
 
 ---
 
