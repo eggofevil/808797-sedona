@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>HTML Academy: Седона</title>
+    <!--<meta name="format-detection" content="telephone=no">-->
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <!--<link href="https://fonts.googleapis.com/css?family=Cuprum:400,400i,700|PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">-->
+    <style>
+      body {
+        background-color: lightgrey;
+      }
+    </style>
+  </head>
+  <body>
+    <header class="page-header">
+      <button class="page-header__nav-open" type="button">Открыть меню</button>
+      <button class="page-header__nav-close" type="button">Закрыть меню</button>
+      <nav class="nav-menu">
+        <ul class="nav-menu__list">
+          <li><a href="index.html">Главная</a></li>
+          <li><a>Фото и видео</a></li>
+          <li><a href="feedback.html">Форма отзыва</a></li>
+          <li><a href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a></li>
+        </ul>
+      </nav>
+      <img class="page-header__logo" src="img/logotyle-mobile.svg" width="102" height="83" alt="City of Sedona">
+    </header>
+    <main class="page-main">
+      <img class="page-main__title" src="img/sedona-sign.svg" width="282" height="49" alt="Welcome to the gorgeous Sedona. &quot;Because the Great Canyon sucks!&quot;">
+      <h1 class="page-main__page-header">Фото и видео</h1>
+      <p class="page-main__page-description">Не можете решиться на путешествие из-за курса? Фотографии помогут вам забыть о политике и экономике.</p>
+      <ul class="page-main__photos-list photos-list">
+        <li class="photos-list__item">
+          <figure>
+            <img class="photos-list__photo" src="img/mobile-media/photo-1-mobile.png" width="280" height="280" alt="Фото местности: шоссе">
+            <figcaption>
+              <h2 class="photos-list__photo-title">Неродные просторы</h2>
+              <p class="photos-list__photo-author"><span>Автор фото: </span>Борис</p>
+              <div class="photos-list__photo-rating">1350</div>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="photos-list__item">
+          <figure>
+            <img class="photos-list__photo" src="img/mobile-media/photo-2-mobile.png" width="280" height="280" alt="Фото местности: кактус?">
+            <figcaption>
+              <h2 class="photos-list__photo-title">Местная растительность</h2>
+              <p class="photos-list__photo-author"><span>Автор фото: </span>Сергей</p>
+              <div class="photos-list__photo-rating">143</div>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="photos-list__item">
+          <figure>
+            <img class="photos-list__photo" src="img/mobile-media/photo-3-mobile.png" width="280" height="280" alt="Фото местности: шоссе вид с горы">
+            <figcaption>
+              <h2 class="photos-list__photo-title">Дорога на север</h2>
+              <p class="photos-list__photo-author"><span>Автор фото: </span>Петр</p>
+              <div class="photos-list__photo-rating">96</div>
+            </figcaption>
+          </figure>
+        </li>
+        <li class="photos-list__item">
+          <figure>
+            <img class="photos-list__photo" src="img/mobile-media/photo-4-mobile.png" width="280" height="280" alt="Фото местности: Мост дьявола">
+            <figcaption>
+              <h2 class="photos-list__photo-title">Мост дьявола</h2>
+              <p class="photos-list__photo-author"><span>Автор фото: </span>Антон</p>
+              <div class="photos-list__photo-rating">254</div>
+            </figcaption>
+          </figure>
+        </li>
+      </ul>
+      <section class="main-page__videos video">
+        <h2 class="video__header">Все еще сомневаетесь?</h2>
+        <p class="video__description">Смотрите видеопрезентацию и скорее за билетами, пока они не подорожали в очередной раз!</p>
+        <div class="video__player player">
+          <div class="player__screen">
+            <img src="img/mobile-media/player/video-mobile.jpg" width="320" height="201">
+          </div>
+          <div class="player__volume-bar"></div>
+          <div class="player__controls"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="page-footer">
+      <p class="page-footer__tag">#visitsedona</p>
+      <ul class="page-footer__social-buttons social-buttons-list">
+        <li class="social-buttons-list__item"><a href="#">Twitter</a></li>
+        <li class="social-buttons-list__item"><a href="#">Facebook</a></li>
+        <li class="social-buttons-list__item"><a href="#">YouTube</a></li>
+      </ul>
+      <a class="page-footer__html-academy-link" href="https://htmlacademy.ru/intensive/adaptive">HTML Academy</a>
+    </footer>
+  </body>
+</html>
